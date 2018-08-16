@@ -6,7 +6,7 @@ options {
 
         // Enable DNSSEC
         dnssec-enable yes;
-        dnssec-validation yes;
+        dnssec-validation auto;
 
         // Enable recursion and allow from any client
         recursion yes;
