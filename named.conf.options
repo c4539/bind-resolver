@@ -10,5 +10,7 @@ options {
 
         // Enable recursion and allow from any client
         recursion yes;
+        allow-recursion { any; };
         allow-query { any; };
+        allow-query-cache { any; };
 };
