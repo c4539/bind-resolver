@@ -13,4 +13,4 @@ COPY named.conf.options named.conf.options
 
 EXPOSE 53/udp
 
-CMD [ "/usr/sbin/named", "-u", "bind", "-g" ]
+CMD [ "/usr/sbin/named", "-4", "-u", "bind", "-g" ]
