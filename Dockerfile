@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-ENV BIND_VERSION 1:9.11.3+dfsg-1ubuntu1.1
+ENV BIND_VERSION 1:9.11.3+dfsg-1ubuntu1.2
 
 RUN apt-get update \
     && apt-get install --no-install-recommends --no-install-suggests -y \
